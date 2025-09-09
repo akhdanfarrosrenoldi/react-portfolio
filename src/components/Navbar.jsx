@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="navbar py-7 flex items-center justify-between">
       <div className="logo">
-        <h1 className="text-3xl font-bold bg-black text-white p-1 md:bg-transparent md:text-black">
+        <h1 className="text-3xl font-bold bg-black text-white p-1 md:bg-transparent md:text-black rounded-xl">
           Portfolio
         </h1>
       </div>
@@ -30,22 +30,22 @@ const Navbar = () => {
         }`}
       >
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#" className="sm:text-lg text-base font-semibold">
             Home
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#" className="sm:text-lg text-base font-semibold">
             About
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#" className="sm:text-lg text-base font-semibold">
             Project
           </a>
         </li>
         <li>
-          <a href="#" className="sm:text-lg text-base font-medium">
+          <a href="#" className="sm:text-lg text-base font-semibold">
             Contact
           </a>
         </li>
